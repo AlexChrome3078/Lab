@@ -5,11 +5,11 @@
 int N, K, ost, L, n, m, k;
 float sum;
 
-void zad1(void);
-void zad2(void);
-void zad3(void);
+void zad1();
+void zad2();
+void zad3();
 
-int main(void)
+int main()
 {
     setlocale(LC_CTYPE, "RUS");
 
@@ -20,7 +20,7 @@ int main(void)
     return 0;
 }
 
-void zad1(void)
+void zad1()
 {
     /* Вывод ступенькой */
     printf("1\n 2\n  3\n");
@@ -48,7 +48,7 @@ void zad1(void)
     printf("%e разделить %e равно %e\n", 5.0, 2000000.0, 5.0 / 2000000.0);
 }
 
-void zad2(void)
+void zad2()
 {
     int hours = 15;
     int minutes = 1;
@@ -68,7 +68,7 @@ void zad2(void)
            (double)hours / 24.0, (double)minutes / 60.0);
 }
 
-void zad3(void)
+void zad3()
 {
     n = 3;
     L = 373;
