@@ -52,7 +52,7 @@ void zad2(void)
 {
     int hours = 15;
     int minutes = 1;
-    int hours_after_eight = hours - 8;
+    int minutes_after_eight = (hours - 8) * 60 + minutes;
     int minutes_since_midnight = hours * 60 + minutes;
     int minutes_until_midnight = (23 - hours) * 60 + (60 - minutes);
     int minutes_until_midnight_hours = minutes_until_midnight / 60;
@@ -62,7 +62,7 @@ void zad2(void)
     printf("Идет %d минута суток\n", minutes_since_midnight);
     printf("До полуночи осталось %d часов и %d минут\n",
            minutes_until_midnight_hours, minutes_until_midnight_minutes);
-    printf("С 8:00 прошло %d секунд\n", hours_after_eight * 60 * 60);
+    printf("С 8:00 прошло %d секунд\n", minutes_after_eight * 60);
 
     printf("Текущий час = %.2f суток, текущая минута = %.2f часа\n",
            (double)hours / 24.0, (double)minutes / 60.0);
