@@ -3,14 +3,14 @@
 #include <locale.h>
 #include <stdlib.h>
 
-int zad1(void);
-int zad1a(void);
-int zad1b(void);
-int zad1v(void);
-int zad2(void);
-int zad3(void);
+int zad1();
+int zad1a();
+int zad1b();
+int zad1v();
+int zad2();
+int zad3();
 
-int main(void)
+int main()
 {
     setlocale(LC_ALL, "RUS");
 
@@ -24,7 +24,7 @@ int main(void)
     return 0;
 }
 
-int zad1(void)
+int zad1()
 {
     char c = '!';
     int i = 2;
@@ -57,7 +57,7 @@ int zad1(void)
     return 0;
 }
 
-int zad1a(void)
+int zad1a()
 {
     float a;
     int b;
@@ -76,7 +76,7 @@ int zad1a(void)
     return 0;
 }
 
-int zad1b(void)
+int zad1b()
 {
     char c;
 
@@ -90,7 +90,7 @@ int zad1b(void)
     return 0;
 }
 
-int zad1v(void)
+int zad1v()
 {
     int i;
 
@@ -106,7 +106,7 @@ int zad1v(void)
     return 0;
 }
 
-int zad2(void)
+int zad2()
 {
     int a = 11;
     int b = 3;
@@ -133,7 +133,7 @@ int zad2(void)
     return 0;
 }
 
-int zad3(void)
+int zad3()
 {
     int n;
     int last;
