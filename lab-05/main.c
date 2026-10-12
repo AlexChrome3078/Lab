@@ -2,11 +2,11 @@
 #include <locale.h>
 #include <math.h>
 
-int zad1(void);
-int zad2(void);
-int zad3(void);
+int zad1();
+int zad2();
+int zad3();
 
-int main(void)
+int main()
 {
     setlocale(LC_ALL, "RUS");
     zad1();
@@ -15,7 +15,7 @@ int main(void)
     return 0;
 }
 
-int zad1(void)
+int zad1()
 {
     const double pi = 3.14159265358979323846;
     double degrees;
@@ -32,7 +32,7 @@ int zad1(void)
     return 0;
 }
 
-int zad2(void)
+int zad2()
 {
     double x, y;
     printf("Вычисление Y(x) = sqrt(1 + x^2) - 2x - arctg(x)\nВведите x: ");
@@ -45,7 +45,7 @@ int zad2(void)
     return 0;
 }
 
-int zad3(void)
+int zad3()
 {
     double x, v;
     printf("Вычисление кусочной функции V(x).\nВведите x: ");
