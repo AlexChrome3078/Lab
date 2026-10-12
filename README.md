@@ -10,6 +10,7 @@
 | 2 | Стандартный вывод и форматирование | [lab-02/main.c](lab-02/main.c) | [Работа 2](https://sites.google.com/view/course-of-study1-c/практика/работа-2) |
 | 3 | Ввод, вывод и арифметические операции | [lab-03/main.c](lab-03/main.c) | [Работа 3](https://sites.google.com/view/course-of-study1-c/практика/работа-3) |
 | 4 | Типы данных и преобразование типов | [lab-04/main.c](lab-04/main.c) | [Работа 4](https://sites.google.com/view/course-of-study1-c/практика/работа-4) |
+| 5 | Математические функции и ветвления | [lab-05/main.c](lab-05/main.c) | [Работа 5](https://sites.google.com/view/course-of-study1-c/практика/работа-5) |
 
 ## Запуск
 
