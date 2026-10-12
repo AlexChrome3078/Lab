@@ -7,11 +7,11 @@
 #define M 2.32
 #define S 7.46
 
-int zad1(void);
-int zad2(void);
-int zad3(void);
+int zad1();
+int zad2();
+int zad3();
 
-int main(void)
+int main()
 {
     setlocale(LC_ALL, "RUS");
 
@@ -22,7 +22,7 @@ int main(void)
     return 0;
 }
 
-int zad1(void)
+int zad1()
 {
     int num1, num2;
 
@@ -52,7 +52,7 @@ int zad1(void)
     return 0;
 }
 
-int zad2(void)
+int zad2()
 {
     int dym;
     float result;
@@ -70,7 +70,7 @@ int zad2(void)
     return 0;
 }
 
-int zad3(void)
+int zad3()
 {
     int A, B;
 
