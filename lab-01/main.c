@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include <locale.h>
 
-int zad1(void);
-int zad2(void);
-int zad3(void);
+int zad1();
+int zad2();
+int zad3();
 
-int main(void)
+int main()
 {
     setlocale(LC_ALL, "RUS");
 
@@ -17,7 +17,7 @@ int main(void)
     return 0;
 }
 
-int zad1(void)
+int zad1()
 {
     /* puts("Моя первая программа"); */
     /* puts("hello world"); */
@@ -29,7 +29,7 @@ int zad1(void)
     return 0;
 }
 
-int zad2(void)
+int zad2()
 {
     puts("Нажмите Enter для продолжения...");
     getchar();
@@ -45,7 +45,7 @@ int zad2(void)
     return 0;
 }
 
-int zad3(void)
+int zad3()
 {
     puts("Нажмите Enter для продолжения...");
     getchar();
